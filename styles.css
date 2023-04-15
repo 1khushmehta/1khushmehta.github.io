@@ -1,0 +1,65 @@
+
+
+.cat{
+  width: 20%;
+}
+
+.ce{
+  opacity: 30%;
+  background-color: #F0F0F0;
+  color: red;
+
+}
+
+.ce:hover{
+  color: white;
+  background: rgb(119,60,67);
+  background: linear-gradient(180deg, rgba(119,60,67,1) 0%, rgba(164,87,88,1) 100%);
+  opacity: 100%;
+}
+
+a:link {
+     text-decoration: none;
+}
+
+
+.logo{
+  width: 100px;
+}
+
+.nav{
+  margin-bottom: 30px;
+}
+
+.x{
+
+  position: relative;
+  float: right;
+}
+
+.n{
+  font-size: 20px;
+  margin-right: 10px;
+  color: white;
+}
+
+.n:hover{
+  color: rgb(119,60,67);
+color:linear-gradient(180deg, rgba(119,60,67,1) 0%, rgba(164,87,88,1) 100%);
+}
+
+.body{
+  color: white;
+  background: rgb(119,60,67);
+  background: linear-gradient(180deg, rgba(119,60,67,1) 0%, rgba(164,87,88,1) 100%);
+}
+
+.home{
+  margin-top: 50px;
+}
+
+.q{
+  border-style: solid hidden hidden hidden;
+  color: pink;
+  border-width: thick;
+}
