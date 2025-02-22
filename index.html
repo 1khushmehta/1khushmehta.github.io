@@ -33,23 +33,22 @@
     </style>
 </head>
 <body>
-    <h1 id="name"></h1>
+    <h1 class="name">Khush</h1>
     <button id="renameButton">Rename</button>
     
     <script>
         document.addEventListener("DOMContentLoaded", function() {
-            let savedName = localStorage.getItem("savedName") || "Welcome";
-            document.getElementById("name").innerText = savedName;
+            let savedName = localStorage.getItem("savedName") || "Khush";
+            document.querySelectorAll(".name").forEach(el => el.innerText = savedName);
         });
 
         document.getElementById("renameButton").addEventListener("click", function() {
             let newName = prompt("Enter new name:");
             if (newName && newName.trim() !== "") {
-                document.getElementById("name").innerText = newName;
+                document.querySelectorAll(".name").forEach(el => el.innerText = newName);
                 localStorage.setItem("savedName", newName);
             }
         });
     </script>
 </body>
 </html>
-
